@@ -1,0 +1,17 @@
+Color values
+rgb(red,green,blue)
+hexadecimal values: rrggbb
+rgba(red,green,blue,alpha)
+alpha is the opacity (sometimes it was known to be transparency)
+hsl values (hue,saturation,lightness)
+
+saturation is theintensity of the color
+hsla(hue, saturation, lightness, alpha)
+
+Inline - by using style attribute in HTML elements
+Internal - by using <style> element in the <head> section
+External - by using an external CSS file
+
+
+Image map generator
+https://www.image-map.net/
