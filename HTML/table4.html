@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- These are comments -->
+<html>
+<head>
+<style>
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th,td{
+	padding: 15px;
+	text-align: left;
+}
+table#t01{
+	width: 100%;
+	background-color: #f1f1c1;
+}
+
+table#t01 tr:nth-child(even){
+	background-color: #eee;
+}
+table#t01 tr:nth-child(odd){
+	background-color: #fff;
+}
+table#t01 th{
+	background-color: black;
+	color: white;
+}
+
+</style>
+</head>
+<body>
+<h2>Styling Tables</h2>
+
+<table style="width: 100%">
+	<caption>This is a caption</caption>
+	<tr>
+		<th>Firstname</th>
+		<th>Lastname</th>
+		<th>Age</th>
+	</tr>
+	<tr>
+		<td>Jill</td>
+		<td>Smith</td>
+		<td>50</td>
+	</tr>
+
+</table>	
+<br>
+
+<table id="t01">
+	<tr>
+		<th>Firstname</th>
+		<th>Lastname</th>
+		<th>Age</th>
+	</tr>
+		<td>Jill</td>
+		<td>Smith</td>
+		<td>50</td>
+	</tr>
+	<tr>
+		<td>Ryan</td>
+		<td>Mendez</td>
+		<td>100</td>
+	</tr>
+</body>
+
+
+</html>
